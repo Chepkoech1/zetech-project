@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff; /* Change background to white */
+    color: grey; /* Change text color to blue */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: rgb(235, 131, 4);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.shop-buttons-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shop-buttons {
+    display: inline-block;
+    border: 2px solid none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+.products {
+    display: flex;
+}
+
+.product {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.product img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.product:hover img {
+    transform: scale(1.1);
+}
+
+.product h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+.product:hover h2 {
+    color: #ff6600;
+}
+
+
+
+.footer {
+    background-color:rgb(253, 218, 176);
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer-col {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-col h4 {
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul i {
+    margin-right: 10px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
