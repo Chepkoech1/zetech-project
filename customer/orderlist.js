@@ -23,7 +23,7 @@ function fetchProducts() {
 
                 const price = document.createElement('p');
                 price.classList.add('price');
-                price.textContent = `$${product.price}`;
+                price.textContent = `${product.price}`;
                 itemDiv.appendChild(price);
 
                 const addButton = document.createElement('button');
@@ -66,7 +66,7 @@ function updateCartDisplay() {
 
         const price = document.createElement('p');
         price.classList.add('price');
-        price.textContent = `$${item.price}`;
+        price.textContent = `ksh${item.price}`;
         cartItemDiv.appendChild(price);
 
         cartItemList.appendChild(cartItemDiv);
