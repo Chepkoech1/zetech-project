@@ -9,14 +9,12 @@ body {
     height: 100vh;
   }
   
- 
-  
-  form {
-    background-color: #fff;
+  .container {
+    width: 400px;
     padding: 20px;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    width: 400px;
   }
   
   label {
@@ -26,7 +24,7 @@ body {
   }
   
   input[type="text"] {
-    width: calc(100% - 22px);
+    width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -45,5 +43,14 @@ body {
   
   button:hover {
     background-color: #0056b3;
+  }
+  
+  #goToHomePage {
+    margin-top: 10px;
+    background-color: #28a745; /* Green color */
+  }
+  
+  #goToHomePage:hover {
+    background-color: #218838; /* Darker green color */
   }
   
