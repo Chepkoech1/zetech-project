@@ -51,7 +51,11 @@ document.getElementById('productForm').addEventListener('submit', function(event
         alert('Failed to load products. Please try again later.');
       });
   }
-  
+  // Function to convert prices to Kenyan Shillings (KES)
+function convertToKES(price) {
+    // Assuming exchange rate of 1 USD = 100 KES
+    return price * 100;
+}
   // Initial load of order list
   refreshOrderList();
   
