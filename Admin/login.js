@@ -21,5 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Show success message
         alert('Signup successful!');
+         // Redirect to admin.html
+         window.location.href = 'admin.html';
     });
 });
