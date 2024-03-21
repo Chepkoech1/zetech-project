@@ -27,10 +27,10 @@ document.getElementById('productForm').addEventListener('submit', function(event
       // Refresh order list
       refreshOrderList();
     })
-    .catch(error => {
-      console.error('Error:', error);
-      alert('Failed to add product. Please try again later.');
-    });
+    // .catch(error => {
+    //   console.error('Error:', error);
+    //   alert('Failed to add product. Please try again later.');
+    // });
   });
   
   function refreshOrderList() {
@@ -46,10 +46,10 @@ document.getElementById('productForm').addEventListener('submit', function(event
           productList.appendChild(li);
         });
       })
-      .catch(error => {
-        console.error('Error:', error);
-        alert('Failed to load products. Please try again later.');
-      });
+      // .catch(error => {
+      //   console.error('Error:', error);
+      //   alert('Failed to load products. Please try again later.');
+      // });
   }
   // Function to convert prices to Kenyan Shillings (KES)
 function convertToKES(price) {

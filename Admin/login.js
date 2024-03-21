@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('password').value = '';
 
         // Show success message
-        alert('Signup successful!');
+        alert('Login successful!');
          // Redirect to admin.html
          window.location.href = 'admin.html';
     });
